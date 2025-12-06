@@ -1,0 +1,12 @@
+.tarjeta{
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    padding: 1em;
+    margin: 1em;
+  }
+
+.tarjeta:hover{
+    border-color: blue;
+    background-color: lightgray;
+}
