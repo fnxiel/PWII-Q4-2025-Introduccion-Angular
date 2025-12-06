@@ -1,3 +1,6 @@
+Enlace liveshare 6-12-2025
+https://prod.liveshare.vsengsaas.visualstudio.com/join?99068ABD74982F8FBDBFF2E71EF47F5CC80C
+
 # PwiiQ42025
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.2.
