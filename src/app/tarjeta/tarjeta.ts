@@ -9,6 +9,7 @@ import { IEnlace } from './IEnlace';
   styleUrl: './tarjeta.scss',
 })
 export class Tarjeta implements ITarjeta {
+  @Input() id: number = 0
   @Input() titulo: string = "Titulo"
   @Input() descripcion: string = "Descripcion"
   @Input() enlace: IEnlace = {

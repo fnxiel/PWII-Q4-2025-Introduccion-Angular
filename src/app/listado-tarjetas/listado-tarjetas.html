@@ -1,0 +1,13 @@
+
+<h2>{{titulo}}</h2>
+@for (tarjeta of listadoTarjetas.slice(0,3); track $index) {
+        <app-tarjeta 
+        [titulo]="tarjeta.titulo"
+        [descripcion]="tarjeta.descripcion"
+        [enlace]="tarjeta.enlace"
+        />
+      }
+
+@if (listadoTarjetas.length > 3) {
+<a href="/ver-mas">Ver mas...</a>
+}
