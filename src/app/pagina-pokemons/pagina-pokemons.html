@@ -1,0 +1,13 @@
+<h1>Listado de pokemon</h1>
+
+<h2>Tenemos informacion disponible de {{listadoPokemon?.count}} pokemons</h2>
+<h3>Trayendo la informacion de los primeros {{conteo}} pokemon</h3>
+
+@for (pokemon of listadoPokemon?.results; track $index) {
+    <ul>
+        <li>
+        <a [href]="pokemon.url"><h4> {{pokemon.name}}</h4></a>
+        </li>
+    </ul>
+}
+
